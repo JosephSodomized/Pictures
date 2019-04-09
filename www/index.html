@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<script src="js/pgb.js"></script>
+	<script src="cordova.js"></script>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body onload="init()">
+
+	<!-- My app main page -->
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+			<h1>GUI</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+			<p>Dominik Malcharczyk</p>
+			<p>malcharczyk.dominik@gmail.com</p>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1>Dominik Malcharczyk</h1>
+		</div>
+		<a href="#secondPage" class="ui-btn">Interests</a>
+	</div>
+
+	<!-- Seond page -->
+	<div data-role="page" id="secondPage">
+		<div data-role="main" class="ui-content">
+			<h1>Dominik jest najlepszym perkusistą</h1>
+<p>gram na perkusji, słucham muzyki oraz kocham kolezankę po prawej stronie.</p>
+		</div>
+		<a href="#pageone" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-l ui-btn-icon-left"></a>
+	</div>
+
+
+</body>
+
+</html>
