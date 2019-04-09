@@ -12,29 +12,41 @@
 
 <body onload="init()">
 
-	<!-- My app main page -->
-	<div data-role="page" id="pageone">
-		<div data-role="header">
-			<h1>GUI</h1>
-		</div>
+	<!-- Tourist -->
+	<div data-role="page" id="tourist">
 		<div data-role="main" class="ui-content">
-			<p>Dominik Malcharczyk</p>
-			<p>malcharczyk.dominik@gmail.com</p>
+			<!-- Masuria -->
+			<a href="#masuria" data-rel="popup" data-position-to="window"
+				class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="fade">masuria</a>
+			<div data-role="popup" id="masuria" class="photopopup" data-overlay-theme="a"
+				data-corners="false" data-tolerance="30,15">
+				<a href="#" data-rel="back"
+					class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img
+					src="https://http2.mlstatic.com/pomerania-sangre-de-campeones-D_NQ_NP_810480-MLM27238996581_042018-F.jpg" alt="Photo portrait">
+			</div>
+			<!-- Pomerania -->
+			<a href="#pomerania" data-rel="popup" data-position-to="window"
+				class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="fade">Pomerania</a>
+			<div data-role="popup" id="pomerania" class="photopopup" data-overlay-theme="a"
+				data-corners="false" data-tolerance="30,15">
+				<a href="#" data-rel="back"
+					class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img
+					src="https://u.profitroom.pl/2017.masuria.com.pl/thumb/1200x630/uploads/Fotolia_35235136_Subscription_Monthly_M.jpg" alt="Photo portrait">
+			</div>
+			<!-- Tatra -->
+			<a href="#tatra" data-rel="popup" data-position-to="window"
+				class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="fade">The tatra mountain</a>
+			<div data-role="popup" id="tatra" class="photopopup" data-overlay-theme="a"
+				data-corners="false" data-tolerance="30,15">
+				<a href="#" data-rel="back"
+					class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img
+					src="https://www.zakopaneapartamenty.net.pl/blog/wp-content/uploads/2016/08/tatry-wysokie-670x300.jpg" alt="Photo portrait">
+			</div>
 		</div>
-		<div data-role="footer" data-position="fixed">
-			<h1>Dominik Malcharczyk</h1>
-		</div>
-		<a href="#secondPage" class="ui-btn">Interests</a>
+
 	</div>
 
-	<!-- Seond page -->
-	<div data-role="page" id="secondPage">
-		<div data-role="main" class="ui-content">
-			<h1>Dominik jest najlepszym perkusistą</h1>
-<p>gram na perkusji, słucham muzyki oraz kocham kolezankę po prawej stronie.</p>
-		</div>
-		<a href="#pageone" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-l ui-btn-icon-left"></a>
-	</div>
+
 
 
 </body>
